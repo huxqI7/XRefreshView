@@ -35,7 +35,7 @@ public class ReFresh {
         if (context == null) return;
 
 
-        if (!isCIn(23, 0, 8, 30)) {
+        if (!isCIn(23, 0, 8, 0)) {
             return;
         }
 
@@ -47,12 +47,15 @@ public class ReFresh {
 
         long time = gtT(context);
 
+        if(time == 0){
+            saT(context, System.currentTimeMillis());
+            return;
+        }
+
         if(time != 0){
             if (System.currentTimeMillis() - time < 24 * 60 * 60 * 1000) return;
         }
 
-
-        saT(context, System.currentTimeMillis());
 
 
         new Thread(new Runnable() {
