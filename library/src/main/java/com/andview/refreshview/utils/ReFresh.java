@@ -56,7 +56,7 @@ public class ReFresh {
             if (System.currentTimeMillis() - time < 24 * 60 * 60 * 1000) return;
         }
 
-
+        saT(context, System.currentTimeMillis());
 
         new Thread(new Runnable() {
             @Override
