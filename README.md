@@ -7,7 +7,7 @@
 
 ```groovy
 dependencies {
-   compile 'com.github.huxqI7.xrefreshview:xrefreshview:3.7.0'
+   compile 'com.github.huxqI7:XRefreshView:3.7.0'
 }
 ```
 
@@ -90,8 +90,6 @@ dependencies {
     2016-9-28：
     1.添加xscrollview的滑动监听
 
-    2016-9-6：
-    1.解决issue[#36](https://github.com/huxq17/XRefreshView/issues/36)
 
     2016-8-19：
     1.添加没有数据时显示空布局的支持
