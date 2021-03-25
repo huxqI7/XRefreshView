@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.andview.example">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.DEVICE_POWER"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="getui.permission.GetuiService.com.a04.protal"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.CustomViewActivity" />
+        <activity android:name=".activity.GridViewActivity" />
+        <activity android:name=".activity.ListViewActivity" />
+        <activity android:name=".activity.WebViewActivity" />
+        <activity android:name=".activity.recyclerview.LinearRecyclerViewActivity" />
+        <activity android:name=".activity.recyclerview.BannerRecyclerViewActivity" />
+        <activity android:name=".activity.ScrollViewActivity" />
+        <activity android:name=".activity.HeadAdActivity" />
+        <activity android:name=".activity.RainDropActivity" />
+        <activity android:name=".activity.RecyclerViewsActivity" />
+        <activity android:name=".activity.recyclerview.GridRecyclerViewActivity" />
+        <activity android:name=".activity.recyclerview.StaggeredRecyclerViewActivity" />
+        <activity android:name=".activity.recyclerview.SilenceRecyclerViewActivity" />
+        <activity android:name=".activity.NotFullScreenActivity" />
+        <activity android:name=".activity.EmptyViewActivity" />
+        <activity android:name=".activity.recyclerview.MultiItemRecyclerViewActivity" />
+        <activity android:name=".activity.recyclerview.ShowFooterWhenNoMoreDataRecyclerViewActivity" />
+        <activity android:name=".activity.NotFullScreenWithoutFooterActivity" />
+        <activity android:name=".activity.SmileViewActivity" />
+        <activity android:name=".activity.recyclerview.WithoutBaseAdapterRecyclerViewActivity" />
+        <activity
+            android:name=".activity.WineActivity"
+            android:label="@string/title_activity_wine" />
+        <activity
+            android:name=".activity.JDActivity"
+            android:label="@string/title_activity_jd" />
+        <activity
+            android:name=".activity.TaoBaoActivity"
+            android:label="@string/title_activity_tao_bao" />
+        <activity
+            android:name=".activity.PluseActivity"
+            android:label="@string/title_activity_pluse" />
+        <activity android:name=".activity.CarCrmActivity"></activity>
+    </application>
+
+</manifest>
