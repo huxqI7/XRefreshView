@@ -11,7 +11,7 @@ dependencies {
 }
 ```
 
-## 最新的使用说明请移步[我的博客](http://blog.csdn.net/footballclub/article/details/46982115 "description")
+
 
 ## 效果图
 
